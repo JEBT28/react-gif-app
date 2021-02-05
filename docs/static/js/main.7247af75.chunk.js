@@ -5,7 +5,7 @@
         "use strict";
         a.r(t);
         var n = a(1), c = a(7), s = a.n(c), i = (a(15), a(16), a(2)), r = a(9),
-            l = a.p + "../static/media/search.f12cd87a.svg", u = a(0), o = function (e) {
+            l = a.p + "./static/media/search.f12cd87a.svg", u = a(0), o = function (e) {
                 var t = e.setCategories, a = Object(n.useState)(""), c = Object(i.a)(a, 2), s = c[0], o = c[1];
                 return Object(u.jsx)("form", {
                     className: " mt-4 mb-4",
@@ -102,7 +102,7 @@
                         }))
                     })]
                 })
-            }, b = a.p + "../static/media/logo.ba793bcc.png", g = function (e) {
+            }, b = a.p + "./static/media/logo.ba793bcc.png", g = function (e) {
                 var t = Object(n.useState)(["Friends"]), a = Object(i.a)(t, 2), c = a[0], s = a[1];
                 return Object(u.jsxs)(u.Fragment, {
                     children: [Object(u.jsxs)("header", {
