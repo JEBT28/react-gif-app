@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import propTypes from 'prop-types'
-import searchImg from '../assets/img/search.svg'
+import propTypes from 'prop-types';
+import { ReactComponent as SearchImg} from '../img/search.svg';
 
 export const AddCategory = ({setCategories}) => {
 
@@ -28,7 +28,7 @@ export const AddCategory = ({setCategories}) => {
                    onChange={(e)=>handleInputChange(e)}
                    placeholder="Search GIPHY"
                    id={"inputCategory"}/>
-                <img className="w-1/12 h-full" src={searchImg} alt=""/>
+                <SearchImg className="w-1/12 h-full"/>
             </div>
         </form>
     );
